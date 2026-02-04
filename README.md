@@ -89,8 +89,13 @@ Screenshots will be stored in `/docs`.
 ## Repo Structure
 
 data/ # CSV dataset (or generator)
+
 sql/ # SQL queries (analysis + validation)
+
 python/ # notebooks for EDA and checks
+
 powerbi/ # PBIX file
+
 dax/ # DAX measures (organized by theme)
+
 docs/ # screenshots + KPI definitions
