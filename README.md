@@ -2,11 +2,6 @@
 
 This project showcases an end-to-end analytics workflow using **SQL + Python (data analysis & validation)** and **Power BI (data modeling, DAX, dashboards)** on a realistic credit union banking dataset.
 
-It is intentionally **client-neutral** and designed to be reusable across resumes for:
-- Data Analyst
-- BI / Power BI Analyst
-- Senior Analyst, Analytics
-
 ---
 
 ## Business Context
