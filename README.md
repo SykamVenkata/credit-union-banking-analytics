@@ -12,6 +12,20 @@ This project showcases an end-to-end analytics workflow using **SQL + Python (da
 | **Invest**                    | Addison Avenue Investment Services, EasyVest (Robo-Advisory), Retirement Planning                                                                         | Investor Profiles, Portfolio Holdings, Asset Allocation, Advisor Interaction Data     | Portfolio performance tracking, Risk vs return analysis, Advisor vs robo adoption, Retirement readiness                                    | Investment Performance Dashboard, Advisor Productivity Reports                         |
 | **Enterprise (Cross-Domain)** | Member 360°, Fraud Monitoring, Regulatory Reporting, Governance & Controls                                                                                | Integrated Member, Banking, Lending, Insurance, Investment Data                       | Member 360 analytics, AML/Fraud detection, Audit & compliance reporting, Executive scorecards                                              | Executive BI Scorecards, Compliance & Risk Dashboards                                  |
 
+
+---
+**FTFCU – Enterprise Data Architecture**
+| Layer                     | Description                                                                                       |
+| ------------------------- | ------------------------------------------------------------------------------------------------- |
+| Source Systems            | Core Banking (DNA), Loan Systems, Insurance Platforms, Investment Platforms, Digital Banking Logs |
+| Staging Layer             | Raw ingestion, data standardization, quality checks                                               |
+| Enterprise Data Warehouse | Conformed dimensions, historical facts, governed data                                             |
+| Data Marts                | Banking, Lending, Insurance, Investment-specific marts                                            |
+| Semantic Layer            | Power BI semantic models, business metrics                                                        |
+| BI & Reporting            | Power BI Dashboards, Executive Reports                                                            |
+
+
+
 ---
 ## Business Context
 
