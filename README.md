@@ -3,8 +3,8 @@
 This project showcases an end-to-end analytics workflow using **SQL + Python (data analysis & validation)** and **Power BI (data modeling, DAX, dashboards)** on a realistic credit union banking dataset.
 
 ---
-## Bank — Retail Banking & Member Services Analytics
-Business Offerings (from website)
+## Bank - Retail Banking & Member Services Analytics
+Business Offerings
 - Rewards Checking & Savings
 - Premier Rewards Banking
 - Startup Savings & Checking
