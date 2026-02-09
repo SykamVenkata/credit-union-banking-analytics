@@ -58,13 +58,13 @@ This document showcases Retail Banking domain knowledge mapped to data domains, 
 
 **7 Sample Tables**
 
-# 🏦 Retail Banking Logical Data Model (FTFCU-style) — Tables, Columns & Relationships
+# Retail Banking Logical Data Model (FTFCU-style) — Tables, Columns & Relationships
 
 > **Purpose:** Copy-paste friendly data dictionary + relationships for a realistic Retail Banking analytics dataset (SQL Server / Power BI ready).
 
 ---
 
-## ✅ Model Summary (Grain & Scope)
+## Model Summary (Grain & Scope)
 
 | Area | What it covers |
 |---|---|
