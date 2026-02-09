@@ -4,7 +4,7 @@ This project showcases an end-to-end analytics workflow using **SQL + Python (da
 
 ---
 ## Bank - Retail Banking & Member Services Analytics
-Business Offerings
+**Business Offerings**
 - Rewards Checking & Savings
 - Premier Rewards Banking
 - Startup Savings & Checking
@@ -13,21 +13,21 @@ Business Offerings
 - Business Checking & Savings
 - IRAs & retirement savings
 
-Core Data Domains
+**Core Data Domains**
 - Member Profile Data: member_id, join_date, segment, geography
 - Account Data: checking/savings balances, interest rates
 - Transaction Data: deposits, withdrawals, transfers, Zelle
 - Digital Banking Logs: login activity, device, channel usage
 - Business Accounts: SMB balances, transaction volumes
 
-Analytics Use Cases
+**Analytics Use Cases**
 - Member growth & churn analysis
 - Average balance & liquidity tracking
 - Digital banking adoption (mobile vs web)
 - Zelle transaction trends & fraud monitoring
 - Business vs personal account profitability
 
-Power BI Dashboards
+**Power BI Dashboards**
 - Retail Banking KPI Dashboard
 - Member Engagement & Digital Usage
 - Deposit Growth & Balance Trends
