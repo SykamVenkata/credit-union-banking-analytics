@@ -90,7 +90,7 @@ This document showcases Retail Banking domain knowledge mapped to data domains, 
 
 **8 Retail Banking – Data Flow (End-to-End)**
 
-Source Systems 
+-> Source Systems
   
   ->  Ingestion 
     
