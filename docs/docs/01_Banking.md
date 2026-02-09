@@ -89,6 +89,7 @@ This document showcases Retail Banking domain knowledge mapped to data domains, 
 | channel     | Branch / Mobile / Zelle |
 
 **8 Retail Banking – Data Flow (End-to-End)**
+
 Source Systems 
   ->  Ingestion 
     -> Staging 
