@@ -57,6 +57,7 @@ This document showcases Retail Banking domain knowledge mapped to data domains, 
 | Digital Banking Dashboard    | Channel performance         |
 
 **Sample Retail Banking Tables**
+
 **members**
 | Column Name      | Description              |
 | ---------------- | ------------------------ |
