@@ -1,9 +1,37 @@
-# Banking Analytics (SQL + Power BI)
+# Credit Union Banking Analytics (SQL + Power BI)
 
 This project showcases an end-to-end analytics workflow using **SQL + Python (data analysis & validation)** and **Power BI (data modeling, DAX, dashboards)** on a realistic credit union banking dataset.
 
 ---
+## Bank — Retail Banking & Member Services Analytics
+Business Offerings (from website)
+- Rewards Checking & Savings
+- Premier Rewards Banking
+- Startup Savings & Checking
+- Membership Savings
+- Digital Banking (Zelle®, debit cards, online banking)
+- Business Checking & Savings
+- IRAs & retirement savings
 
+Core Data Domains
+- Member Profile Data: member_id, join_date, segment, geography
+- Account Data: checking/savings balances, interest rates
+- Transaction Data: deposits, withdrawals, transfers, Zelle
+- Digital Banking Logs: login activity, device, channel usage
+- Business Accounts: SMB balances, transaction volumes
+
+Analytics Use Cases
+- Member growth & churn analysis
+- Average balance & liquidity tracking
+- Digital banking adoption (mobile vs web)
+- Zelle transaction trends & fraud monitoring
+- Business vs personal account profitability
+
+Power BI Dashboards
+- Retail Banking KPI Dashboard
+- Member Engagement & Digital Usage
+- Deposit Growth & Balance Trends
+---
 ## Business Context
 
 A mid-to-large **US Credit Union** wants trusted, consistent reporting across:
