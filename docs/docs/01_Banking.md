@@ -91,11 +91,18 @@ This document showcases Retail Banking domain knowledge mapped to data domains, 
 **8 Retail Banking – Data Flow (End-to-End)**
 
 Source Systems 
+  
   ->  Ingestion 
+    
     -> Staging 
+      
       -> Enterprise Data Warehouse (EDW) 
+        
         -> Retail Banking Data Mart
+          
           -> KPI Calculation Layer
+            
             -> Semantic / BI Layer
+              
               -> Reporting Layer
 
