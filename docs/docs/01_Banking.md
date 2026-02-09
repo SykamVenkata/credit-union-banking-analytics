@@ -1,5 +1,5 @@
 # Retail Banking Analytics
-This document showcases Retail Banking domain knowledge mapped from FTFCU website offerings to data domains, KPIs, analytics use cases, and BI outputs.
+This document showcases Retail Banking domain knowledge mapped to data domains, KPIs, analytics use cases, and BI outputs.
 
 **Retail Banking – Business Scope**
 | Area          | Description                                     |
