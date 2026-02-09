@@ -1,4 +1,4 @@
-# Credit Union Banking Analytics (SQL + Power BI)
+# Banking Analytics (SQL + Power BI)
 
 This project showcases an end-to-end analytics workflow using **SQL + Python (data analysis & validation)** and **Power BI (data modeling, DAX, dashboards)** on a realistic credit union banking dataset.
 
