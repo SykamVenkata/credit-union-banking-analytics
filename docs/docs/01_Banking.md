@@ -1,7 +1,7 @@
 # Retail Banking Analytics
 This document showcases Retail Banking domain knowledge mapped to data domains, KPIs, analytics use cases, and BI outputs.
 
-**Retail Banking – Business Scope**
+**1 Retail Banking – Business Scope**
 | Area          | Description                                     |
 | ------------- | ----------------------------------------------- |
 | Customer Type | Individual Members & Small Businesses           |
@@ -9,7 +9,7 @@ This document showcases Retail Banking domain knowledge mapped to data domains, 
 | Channels      | Branch, Online Banking, Mobile App              |
 | Primary Goals | Member growth, deposit growth, digital adoption |
 
-**Retail Banking – Product Coverage**
+**2 Retail Banking – Product Coverage**
 | Product Category | Offerings                                       |
 | ---------------- | ----------------------------------------------- |
 | Deposit Accounts | Rewards Checking, Savings, Membership Savings   |
@@ -18,7 +18,7 @@ This document showcases Retail Banking domain knowledge mapped to data domains, 
 | Digital Services | Online Banking, Mobile App, Zelle®, Debit Cards |
 | Retirement       | IRAs                                            |
 
-**Core Retail Banking Data Domains**
+**3 Core Retail Banking Data Domains**
 | Data Domain          | Description                             |
 | -------------------- | --------------------------------------- |
 | Member Master        | Member demographics, join date, segment |
@@ -28,7 +28,7 @@ This document showcases Retail Banking domain knowledge mapped to data domains, 
 | Payment Services     | Zelle transactions                      |
 | Business Accounts    | SMB account activity                    |
 
-**Retail Banking – Key KPIs (Executive + Operational)**
+**4 Retail Banking – Key KPIs (Executive + Operational)**
 | KPI Category | KPI Name            | Business Meaning          |
 | ------------ | ------------------- | ------------------------- |
 | Growth       | Total Members       | Active retail members     |
@@ -39,7 +39,7 @@ This document showcases Retail Banking domain knowledge mapped to data domains, 
 | Payments     | Zelle Txn Volume    | Peer-to-peer usage        |
 | Engagement   | Products per Member | Cross-sell indicator      |
 
-**Retail Banking – Analytics Use Cases**
+**5 Retail Banking – Analytics Use Cases**
 | Use Case                  | Description                        |
 | ------------------------- | ---------------------------------- |
 | Member Growth Analysis    | Track joins, exits, and net growth |
@@ -48,7 +48,7 @@ This document showcases Retail Banking domain knowledge mapped to data domains, 
 | Zelle Monitoring          | Usage, volume, anomaly detection   |
 | Segment Performance       | Retail vs Premier vs Business      |
 
-**Retail Banking – Power BI Dashboards**
+**6 Retail Banking – Power BI Dashboards**
 | Dashboard                    | Key Insights                |
 | ---------------------------- | --------------------------- |
 | Retail Banking KPI Dashboard | Members, deposits, adoption |
@@ -56,9 +56,9 @@ This document showcases Retail Banking domain knowledge mapped to data domains, 
 | Deposit Trends Dashboard     | Balance movement over time  |
 | Digital Banking Dashboard    | Channel performance         |
 
-**Sample Retail Banking Tables**
+**7 Sample Retail Banking Tables**
 
-**members**
+**- members**
 | Column Name      | Description              |
 | ---------------- | ------------------------ |
 | member_id        | Unique member identifier |
@@ -68,7 +68,7 @@ This document showcases Retail Banking domain knowledge mapped to data domains, 
 | state            | Member location          |
 | digital_enrolled | Y/N                      |
 
-**accounts**
+**- accounts**
 | Column Name  | Description        |
 | ------------ | ------------------ |
 | account_id   | Account identifier |
@@ -78,7 +78,7 @@ This document showcases Retail Banking domain knowledge mapped to data domains, 
 | open_date    | Account open date  |
 | status       | Active / Closed    |
 
-**transactions**
+**- transactions**
 | Column Name | Description             |
 | ----------- | ----------------------- |
 | txn_id      | Transaction ID          |
@@ -88,13 +88,13 @@ This document showcases Retail Banking domain knowledge mapped to data domains, 
 | amount      | Transaction amount      |
 | channel     | Branch / Mobile / Zelle |
 
-**Retail Banking – Data Flow (Conceptual)**
-| Step      | Description                     |
-| --------- | ------------------------------- |
-| Source    | Core Banking, Digital Platforms |
-| Staging   | Data ingestion & validation     |
-| EDW       | Conformed retail banking facts  |
-| Data Mart | Retail Banking Mart             |
-| BI Layer  | Power BI semantic model         |
-| Reporting | Dashboards & KPI cards          |
+**8 Retail Banking – Data Flow (End-to-End)**
+Source Systems 
+  ->  Ingestion 
+    -> Staging 
+      -> Enterprise Data Warehouse (EDW) 
+        -> Retail Banking Data Mart
+          -> KPI Calculation Layer
+            -> Semantic / BI Layer
+              -> Reporting Layer
 
