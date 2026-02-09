@@ -132,7 +132,7 @@ This document showcases Retail Banking domain knowledge mapped to data domains, 
 | effective_end_date_key | INT | FK → dim_date (SCD2) |
 | is_current | BIT | SCD2 flag |
 
-## 🧑‍💼 dim_member (SCD Type 2) — Sample Data (10 Records)
+## dim_member (SCD Type 2) — Sample Data (10 Records)
 
 | member_sk | member_id | household_id | member_since_date_key | member_status | segment  | risk_rating | kyc_status | preferred_language | employer_industry | income_band | effective_start_date_key | effective_end_date_key | is_current |
 |----------:|----------:|-------------:|-----------------------:|---------------|----------|-------------|------------|--------------------|-------------------|-------------|--------------------------:|------------------------:|-----------:|
