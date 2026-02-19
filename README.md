@@ -29,7 +29,7 @@ This project showcases an end-to-end analytics workflow using **SQL + Python (da
 ---
 ## Business Context
 
-A mid-to-large **US Credit Union** wants trusted, consistent reporting across:
+Business wants trusted, consistent reporting across:
 - Member growth & engagement
 - Deposits and balances
 - Consumer lending performance
